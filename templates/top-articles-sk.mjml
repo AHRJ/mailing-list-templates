@@ -94,45 +94,57 @@ width: 80px !important;
                 <mj-text align="center" font-size="26px" padding-top="20px" color="#555" font-weight="bold" line-height="1.2">Добрый день!</mj-text>
                 <mj-text font-size="16px" padding-top="10px" color="#555" line-height="1.2" >Собрали для Вас актуальные статьи по молочному и мясному скотоводству. Со всеми статьями можно бесплатно ознакомиться на сайте.</mj-text>
             </mj-section>
-            <mj-section>
-                <mj-column border-bottom="1px solid #ccc">
-                    <mj-text padding-top="20px" padding-bottom="10px" font-weight="bold" font-size="18px" color="#444">
-                        <a class="link-nostyle" href="{{ news.link }}">Профилактика теплового стресса</a>
-                    </mj-text>
-                    <mj-text padding-bottom="10px" font-size="13px" color="#555" line-height="1.2">Создание комфортных условий содержания и грамотное управление кормлением коров, в частности использование кормовой добавки Л.Е.Д. от компании Cargill Animal Nutrition and Health, позволит минимизировать отрицательные последствия теплового стресса, поддержать продуктивность животных и тем самым повысить рентабельность молочных предприятий.</mj-text>
-                    <mj-text font-size="15px" color="#855" font-weight="bold" text-decoration="underline" padding-bottom="20px">
-                        <a class="link-nostyle" href="{{ news.link }}">Читать статью</a>
-                    </mj-text>
+            <mj-section padding-top="40px">
+                <mj-column width="20%" css-class="hide-on-mobile">
+                	<mj-image width="100px" border-radius="4px" align="left" border="1px solid #eee" src="https://zzr.ru/sites/default/files/article/thumbnails/zzr-2022-05-011.jpg" />
                 </mj-column>
-            </mj-section>
-            <mj-section>
-                <mj-column border-bottom="1px solid #ccc">
-                    <mj-text padding-bottom="10px" font-weight="bold" font-size="18px" color="#444">
-                        <a class="link-nostyle" href="{{ news.link }}">Вводим солодовые ростки в стартерный комбикорм</a>
-                    </mj-text>
-                    <mj-text padding-bottom="10px" font-size="13px" color="#555" line-height="1.2">При выращивании бычков на мясо, согласно исследованиям, целесообразно включать в рационы стартерный комбикорм, содержащий 5% солодовых ростков. Это способствует улучшению эффективности откорма и повышению рентабельности предприятий.</mj-text>
-                    <mj-text font-size="15px" color="#855" font-weight="bold" text-decoration="underline" padding-bottom="20px">
-                        <a class="link-nostyle" href="{{ news.link }}">Читать статью</a>
-                    </mj-text>
-                </mj-column>
-            </mj-section>
-            <mj-section>
-                <mj-column border-bottom="1px solid #ccc">
+                <mj-column width="80%" css-class="news-card-text">
                     <mj-text padding-bottom="10px" font-weight="bold" font-size="18px" color="#444">
                         <a class="link-nostyle" href="{{ news.link }}">Профилактика теплового стресса</a>
                     </mj-text>
-                    <mj-text padding-bottom="10px" font-size="13px" color="#555" line-height="1.2">Создание комфортных условий содержания и грамотное управление кормлением коров, в частности использование кормовой добавки Л.Е.Д. от компании Cargill Animal Nutrition and Health, позволит минимизировать отрицательные последствия теплового стресса, поддержать продуктивность животных и тем самым повысить рентабельность молочных предприятий.</mj-text>
+                    <mj-text padding-bottom="10px" font-size="13px" color="#555" line-height="1.2">Создание комфортных условий содержания и грамотное управление кормлением коров, в частности использование кормовой добавки Л.Е.Д. от компании Cargill Animal Nutrition and Health, позволит минимизировать отрицательные последствия теплового стресса.</mj-text>
                     <mj-text font-size="15px" color="#855" font-weight="bold" text-decoration="underline" padding-bottom="20px">
                         <a class="link-nostyle" href="{{ news.link }}">Читать статью</a>
                     </mj-text>
                 </mj-column>
             </mj-section>
             <mj-section>
-                <mj-column border-bottom="1px solid #ccc">
+                <mj-column width="20%" css-class="hide-on-mobile">
+                	<mj-image width="100px" border-radius="4px" align="left" border="1px solid #eee" src="https://zzr.ru/sites/default/files/article/thumbnails/zzr-2020-11-012.jpg" />
+                </mj-column>
+                <mj-column width="80%" css-class="news-card-text">
                     <mj-text padding-bottom="10px" font-weight="bold" font-size="18px" color="#444">
-                        <a class="link-nostyle" href="{{ news.link }}">Вводим солодовые ростки в стартерный комбикорм</a>
+                        <a class="link-nostyle" href="{{ news.link }}">DCAD-­рационы и микроминеральное кормление высокоудойных коров</a>
                     </mj-text>
-                    <mj-text padding-bottom="10px" font-size="13px" color="#555" line-height="1.2">При выращивании бычков на мясо, согласно исследованиям, целесообразно включать в рационы стартерный комбикорм, содержащий 5% солодовых ростков. Это способствует улучшению эффективности откорма и повышению рентабельности предприятий.</mj-text>
+                    <mj-text padding-bottom="10px" font-size="13px" color="#555" line-height="1.2">Грамотное применение DCAD-рационов и микроминеральных комплексов в кормлении высокоудойных коров помогает сохранить их здоровье и достичь максимальной продуктивности.</mj-text>
+                    <mj-text font-size="15px" color="#855" font-weight="bold" text-decoration="underline" padding-bottom="20px">
+                        <a class="link-nostyle" href="{{ news.link }}">Читать статью</a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-column width="20%" css-class="hide-on-mobile">
+                	<mj-image width="100px" border-radius="4px" align="left" border="1px solid #eee" src="https://zzr.ru/sites/default/files/article/thumbnails/zzr-2020-10-011.jpg" />
+                </mj-column>
+                <mj-column width="80%" css-class="news-card-text">
+                    <mj-text padding-bottom="10px" font-weight="bold" font-size="18px" color="#444">
+                        <a class="link-nostyle" href="{{ news.link }}">Ген BoLA­DRB3 и молочная продуктивность</a>
+                    </mj-text>
+                    <mj-text padding-bottom="10px" font-size="13px" color="#555" line-height="1.2">Проведена работа по оценке влияния генотипа коров айрширской породы по гену BoLA-DRB3 на показатели их устойчивости к заболеваниям и молочной продуктивности.</mj-text>
+                    <mj-text font-size="15px" color="#855" font-weight="bold" text-decoration="underline" padding-bottom="20px">
+                        <a class="link-nostyle" href="{{ news.link }}">Читать статью</a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-column width="20%" css-class="hide-on-mobile">
+                	<mj-image width="100px" border-radius="4px" align="left" border="1px solid #eee" src="https://zzr.ru/sites/default/files/article/thumbnails/zzr-2020-07-012.jpg" />
+                </mj-column>
+                <mj-column width="80%" css-class="news-card-text">
+                    <mj-text padding-bottom="10px" font-weight="bold" font-size="18px" color="#444">
+                        <a class="link-nostyle" href="{{ news.link }}">Белковый обмен и состав рациона</a>
+                    </mj-text>
+                    <mj-text padding-bottom="10px" font-size="13px" color="#555" line-height="1.2">Контроль содержания мочевины в молоке дает возможность оптимизировать уровень протеина и его фракций в рационе, улучшить использование азота корма в организме коров и сохранить их здоровье.</mj-text>
                     <mj-text font-size="15px" color="#855" font-weight="bold" text-decoration="underline" padding-bottom="20px">
                         <a class="link-nostyle" href="{{ news.link }}">Читать статью</a>
                     </mj-text>
@@ -140,7 +152,7 @@ width: 80px !important;
             </mj-section>
             <mj-section>
                 <mj-column>
-                    <mj-text padding-top="20px" font-size="14px" font-style='italic' align="right" color="#777" line-height="1.2">С уважением,
+                    <mj-text font-size="14px" font-style='italic' align="right" color="#777" line-height="1.2">С уважением,
                         <br>главный редактор Наталия СОБОЛЬ 
                         </mj-text>
                     </mj-column>
